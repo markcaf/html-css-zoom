@@ -41,6 +41,7 @@ header{
 }
 /* fine header */
 
+/* Style del main */
 main{
     padding: 10vh 7vw;
 }
@@ -64,4 +65,88 @@ main{
     padding: 5px;
     color: white;
 }
+/* Fine del main */
 
+/* Style del footer e definizione degli hover*/
+footer{
+    background-color: #222;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 0px;
+}
+
+footer nav{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    justify-content: space-between;
+}
+
+.mic-video{
+    font-size: 25px;
+    display: flex;
+}
+
+.mic-video div{
+    padding: 0px 10px;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mic-video div div{
+    font-size: 12px;
+}
+
+.mic:hover, .video:hover{
+    color: red;
+}
+
+.settings{
+    font-size: 25px;
+    display: flex;
+}
+
+.settings div{
+    margin: 0px 5px;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+}
+
+.settings div div{
+    font-size: 12px;
+}
+
+.settings div:hover{
+    color: green;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.fa-angle-up:before {
+    content: "\f106";
+    font-size: 10px;
+    align-self: center;
+}
+
+nav button{
+    padding: 28px;
+    position: relative;
+    left: 0;
+    background-color: #343434;
+    border-color: #343434;
+    color: red;
+    cursor: pointer;    
+}
+
+nav button:hover{
+    background-color: red;
+    color: black;
+}
+/* fine del footer e degli hover */
