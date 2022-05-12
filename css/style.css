@@ -4,3 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.header-content{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.header-content span{
+    color: white;
+    padding: 5px;
+    background-color: #4a4a4a;
+    border-radius: 4px;
+}
+
+#view{
+    margin-right: 10px;
+}
+
+#full-screen:hover,#view:hover{
+    background-color: #696969;
+    cursor: pointer;
+}
