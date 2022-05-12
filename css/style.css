@@ -10,10 +10,18 @@ body{
     font-family: 'Arial', 'Helvetica', sans-serif;
 }
 
+/* Style dell'header */
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+}
+
 .header-content{
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .header-content span{
@@ -31,3 +39,29 @@ body{
     background-color: #696969;
     cursor: pointer;
 }
+/* fine header */
+
+main{
+    padding: 10vh 7vw;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.details{
+    position: absolute;
+    bottom: 4px;
+    background-color: #3d3d3dcb;
+    padding: 5px;
+    color: white;
+}
+
