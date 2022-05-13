@@ -13,9 +13,9 @@ body{
 /* Style dell'header */
 header{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 1;
-    background-color: black;
+    /* background-color: black; */
     height: 50px;
 }
 
@@ -47,7 +47,8 @@ header{
 /* Style del main */
 main{
     /* padding: 10vh 7vw; */
-    height: calc(100vh - 100px);
+    height: calc(100vh - 125px);
+    width: 100%;
     overflow: auto;
     /* margin: auto; */
 }
@@ -58,7 +59,7 @@ main{
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .user{
